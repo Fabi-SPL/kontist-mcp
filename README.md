@@ -80,4 +80,4 @@ token is only issued after an MFA push is confirmed on the phone.
 
 ## License
 
-MIT
+Apache 2.0. See `LICENSE` and `NOTICE`.
