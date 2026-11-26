@@ -220,7 +220,7 @@ export async function getTaxReserves(): Promise<TaxReserve> {
 
 /**
  * Categorize / annotate a transaction.
- * Useful for Lucid: tag a Stripe payout as "Stripe payout — Voice Agent Premium / Praxis Müller"
+ * Useful for bookkeeping: tag a Stripe payout with the invoices it settles.
  */
 export async function annotateTransaction(id: string, note: string) {
   const mutation = /* GraphQL */ `
